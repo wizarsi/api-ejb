@@ -14,7 +14,7 @@ import java.security.cert.X509Certificate;
 @Stateless
 public class NetworkServiceImpl implements NetworkService {
 
-    private final String STUDY_GROUP_SERVICE = "http://localhost:8181/api";
+    private final String STUDY_GROUP_SERVICE = "http://localhost:10000/api";
 
     public WebTarget getTarget() {
         System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA ");
