@@ -1,0 +1,8 @@
+services:
+  haproxy:
+    image: "haproxy:latest"
+    container_name: haproxy-api-ejb
+    ports:
+      - "10100:10100"
+    volumes:
+      - ./haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg

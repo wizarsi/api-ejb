@@ -4,34 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b458ab60-8d9a-4b64-acd9-c07a297501e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/controllers/IsuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/exceptionsMappers/ServerNotAvailableExceptionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/model/ErrorData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/utils/JndiUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/utils/Routes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/webapp/WEB-INF/jboss-web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejb/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejb/src/main/java/org/example/ejb/exceptions/ServerNotAvailable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejb/src/main/java/org/example/ejb/exceptions/UnrealMeaningException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejb/src/main/java/org/example/ejb/model/Coordinates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejb/src/main/java/org/example/ejb/model/CountExpelledDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejb/src/main/java/org/example/ejb/model/ErrorDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejb/src/main/java/org/example/ejb/model/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejb/src/main/java/org/example/ejb/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejb/src/main/java/org/example/ejb/model/StudyGroupBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejb/src/main/java/org/example/ejb/service/IsuGroupService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejb/src/main/java/org/example/ejb/service/IsuGroupServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejb/src/main/java/org/example/ejb/service/NetworkService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejb/src/main/java/org/example/ejb/service/NetworkServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejb/src/main/java/org/example/ejb/service/util/Routes.java" afterDir="false" />
+    <list default="true" id="b458ab60-8d9a-4b64-acd9-c07a297501e6" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/haproxy.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,22 +31,26 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Andrey Vasiliev/Desktop/api-ejb/api/src/main/java/org/example/webapp",
+    "last_opened_file_path": "C:/Users/Andrey Vasiliev/Desktop/api-ejb",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrey Vasiliev\Desktop\api-ejb" />
       <recent name="C:\Users\Andrey Vasiliev\Desktop\api-ejb\api\src\main\java\org\example\webapp" />
       <recent name="C:\Users\Andrey Vasiliev\Desktop\api-ejb\ejb\src\main\java\org\example\ejb" />
       <recent name="C:\Users\Andrey Vasiliev\Desktop\api-ejb\ejb\src\main\java\org\example\ejb\model" />
       <recent name="C:\Users\Andrey Vasiliev\Desktop\api-ejb\ejb\src\main\java\org\example\ejb\service" />
-      <recent name="C:\Users\Andrey Vasiliev\Desktop\api-ejb\api\src\main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrey Vasiliev\Desktop\api-ejb" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.api.model" />
@@ -86,11 +67,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703257519015</updated>
-      <workItem from="1703257520108" duration="20170000" />
+      <workItem from="1703257520108" duration="26587000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1703284506884</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703284506884</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
