@@ -2,9 +2,9 @@ package org.example.api.controllers;
 
 import org.example.api.utils.JndiUtils;
 import org.example.ejb.service.IsuGroupService;
-import org.example.isuapp.CountExpelledStudentsResponse;
-import org.example.isuapp.ExpelStudentsRequest;
-import org.example.isuapp.ExpelStudentsResponse;
+import org.example.api.model.CountExpelledStudentsResponse;
+import org.example.api.model.ExpelStudentsRequest;
+import org.example.api.model.ExpelStudentsResponse;
 import org.springframework.ws.server.endpoint.annotation.Endpoint;
 import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;

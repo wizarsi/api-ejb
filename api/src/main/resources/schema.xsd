@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://org/example/isuapp"
-           targetNamespace="http://org/example/isuapp" elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://org/example/isuapp"
+           targetNamespace="http://org/example/isuapp"
+           elementFormDefault="qualified">
     <xs:element name="countExpelledStudentsResponse">
         <xs:complexType>
             <xs:sequence>
@@ -14,6 +15,11 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    <xs:complexType name="starshipXml">
+        <xs:sequence>
+            <xs:element name="expelledStudentCount" type="xs:long"/>
+        </xs:sequence>
+    </xs:complexType>
 
     <xs:element name="expelStudentsRequest">
         <xs:complexType>

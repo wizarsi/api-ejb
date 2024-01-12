@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b458ab60-8d9a-4b64-acd9-c07a297501e6" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/configs/WebConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/configs/WebServiceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/controllers/IsuEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/resources/schema.xsd" afterDir="false" />
+    <list default="true" id="b458ab60-8d9a-4b64-acd9-c07a297501e6" name="Changes" comment="soap fail">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/example/api/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/example/api/controllers/IsuController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/example/api/exceptionsMappers/ServerNotAvailableExceptionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/example/api/model/ErrorData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejb/src/main/java/org/example/ejb/model/CountExpelledDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/example/api/controllers/IsuEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/controllers/IsuEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/resources/schema.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/schema.xsd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +111,7 @@
       <workItem from="1704996921437" duration="592000" />
       <workItem from="1704997525352" duration="1168000" />
       <workItem from="1704999679291" duration="2058000" />
-      <workItem from="1705056219076" duration="8328000" />
+      <workItem from="1705056219076" duration="14392000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -137,14 +129,72 @@
       <option name="project" value="LOCAL" />
       <updated>1703292537837</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="soap fail">
+      <option name="closed" value="true" />
+      <created>1705064798512</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705064798512</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="soap fail" />
+    <option name="LAST_COMMIT_MESSAGE" value="soap fail" />
   </component>
 </project>
