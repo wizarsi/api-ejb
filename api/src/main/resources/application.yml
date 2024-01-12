@@ -1,0 +1,6 @@
+server:
+  port: ${SERVER_PORT:8080}
+
+service:
+  first-service:
+    url: http://${STUDY_GROUP_HOST:localhost}:${STUDY_GROUP_PORT:10000}/api

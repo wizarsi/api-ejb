@@ -4,18 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b458ab60-8d9a-4b64-acd9-c07a297501e6" name="Changes" comment="soap fail">
+    <list default="true" id="b458ab60-8d9a-4b64-acd9-c07a297501e6" name="Changes" comment="soap fail 2">
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/exceptions/ServerNotAvailable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/exceptions/UnrealMeaningException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/integration/StudyGroupRestTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/integration/StudyGroupRestTemplateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/model/dto/rest/Coordinates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/model/dto/rest/ErrorDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/model/dto/rest/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/model/dto/rest/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/model/dto/rest/StudyGroupBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/services/IsuGroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/services/IsuGroupServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/example/api/MainServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/MainServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/example/api/ServletInitializer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/org/example/api/controllers/IsuEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/controllers/IsuEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/example/api/model/CountExpelledStudentsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/example/api/model/CountExpelledStudentsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/example/api/model/ExpelStudentsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/example/api/model/ExpelStudentsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/example/api/utils/JndiUtils.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/resources/schema.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/schema.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/webapp/WEB-INF/jboss-web.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="f2df012e05b9524e8310424b1227e67172339614" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -30,6 +62,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -37,7 +73,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/ayuvasilev/Desktop/api-ejb/api/src/main/java/org/example/api",
+    "last_opened_file_path": "C:/Users/ayuvasilev/Desktop/first-service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,38 +89,24 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ayuvasilev\Desktop\api-ejb\api\src\main\java\org\example\api\model\dto\soap" />
       <recent name="C:\Users\ayuvasilev\Desktop\api-ejb\api\src\main\java\org\example\api" />
+      <recent name="C:\Users\ayuvasilev\Desktop\api-ejb\api\src\main\java\org\example\api\model\entity" />
+      <recent name="C:\Users\ayuvasilev\Desktop\api-ejb\api\src\main\java\org\example\api\services" />
       <recent name="C:\Users\ayuvasilev\Desktop\api-ejb\api\src\main\java\org\example\api\configs" />
-      <recent name="C:\Users\Andrey Vasiliev\Desktop\api-ejb" />
-      <recent name="C:\Users\Andrey Vasiliev\Desktop\api-ejb\api\src\main\java\org\example\webapp" />
-      <recent name="C:\Users\Andrey Vasiliev\Desktop\api-ejb\ejb\src\main\java\org\example\ejb" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Andrey Vasiliev\Desktop\api-ejb" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.api.model.dto.soap" />
+      <recent name="org.example.api.integration" />
       <recent name="org.example.api.dto" />
       <recent name="org.example.api.model" />
       <recent name="org.example.api" />
-      <recent name="org.example.api.utils" />
-      <recent name="org.example.ejb.service.util" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiApplication">
-    <configuration name="ApiApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.api.ApiApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.api.ApiApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="MainServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.api.MainServiceApplication" />
@@ -112,6 +134,8 @@
       <workItem from="1704997525352" duration="1168000" />
       <workItem from="1704999679291" duration="2058000" />
       <workItem from="1705056219076" duration="14392000" />
+      <workItem from="1705086877790" duration="300000" />
+      <workItem from="1705087348855" duration="2825000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
