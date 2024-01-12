@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b458ab60-8d9a-4b64-acd9-c07a297501e6" name="Changes" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/configs/WebConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/configs/WebServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/org/example/api/controllers/IsuEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/schema.xsd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejb/src/main/java/org/example/ejb/service/NetworkServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ejb/src/main/java/org/example/ejb/service/NetworkServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/example/api/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/example/api/controllers/IsuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/example/api/exceptionsMappers/ServerNotAvailableExceptionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/example/api/model/ErrorData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejb/src/main/java/org/example/ejb/model/CountExpelledDTO.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +45,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Andrey Vasiliev/Desktop/api-ejb/api",
+    "last_opened_file_path": "C:/Users/ayuvasilev/Desktop/api-ejb/api/src/main/java/org/example/api",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -48,26 +55,51 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "configurable.group.appearance",
+    "spring.configuration.checksum": "8a5da52ed126447d359e70c05721a8aa",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ayuvasilev\Desktop\api-ejb\api\src\main\java\org\example\api" />
+      <recent name="C:\Users\ayuvasilev\Desktop\api-ejb\api\src\main\java\org\example\api\configs" />
       <recent name="C:\Users\Andrey Vasiliev\Desktop\api-ejb" />
       <recent name="C:\Users\Andrey Vasiliev\Desktop\api-ejb\api\src\main\java\org\example\webapp" />
       <recent name="C:\Users\Andrey Vasiliev\Desktop\api-ejb\ejb\src\main\java\org\example\ejb" />
-      <recent name="C:\Users\Andrey Vasiliev\Desktop\api-ejb\ejb\src\main\java\org\example\ejb\model" />
-      <recent name="C:\Users\Andrey Vasiliev\Desktop\api-ejb\ejb\src\main\java\org\example\ejb\service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Andrey Vasiliev\Desktop\api-ejb" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.api.dto" />
       <recent name="org.example.api.model" />
       <recent name="org.example.api" />
       <recent name="org.example.api.utils" />
       <recent name="org.example.ejb.service.util" />
     </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ApiApplication">
+    <configuration name="ApiApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.api.ApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.api.ApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.api.MainServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -84,6 +116,10 @@
       <workItem from="1703333609488" duration="137000" />
       <workItem from="1703333760097" duration="48000" />
       <workItem from="1703333838331" duration="4212000" />
+      <workItem from="1704996921437" duration="592000" />
+      <workItem from="1704997525352" duration="1168000" />
+      <workItem from="1704999679291" duration="2058000" />
+      <workItem from="1705056219076" duration="8328000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />

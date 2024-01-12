@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://org/example/isuapp"
+           targetNamespace="http://org/example/isuapp" elementFormDefault="qualified">
+    <xs:element name="countExpelledStudentsResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="expelledStudentCount" type="xs:long"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="countExpelledStudentsRequest">
+        <xs:complexType>
+            <xs:sequence>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="expelStudentsRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="groupId" type="xs:long"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="expelStudentsResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="expelledStudentCount" type="xs:long"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
